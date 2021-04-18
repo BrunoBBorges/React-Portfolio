@@ -37,7 +37,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project2.jpg',
+    img: 'project2.png',
     title: 'Budget Tracker',
     info: 'Simple app designed to allow the user to track expendatures',
     info2: 'Tracks transactions offline, and sends them to the db when back online',
@@ -46,20 +46,20 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'project3.jpg',
+    title: 'Covid-Companion',
+    info: 'A react app that allows users to track their covid status',
+    info2: 'Allows users to add friends and check who is in contact with who, and their covid information (still in development will update with pictures soon)',
     url: '',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/JulieAnnI/covid-companion', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Contact me!',
+  btn: 'Contact',
+  email: 'brunobborges68@gmail.com',
 };
 
 // FOOTER DATA
@@ -83,7 +83,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/BrunoBBorges',
     },
   ],
 };
